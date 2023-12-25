@@ -7,8 +7,8 @@ let package = Package(
     .library(name: "StencilSwiftKit", targets: ["StencilSwiftKit"])
   ],
   dependencies: [
-    .package(url: "https://github.com/shibapm/Komondor.git", .exact("1.1.3")),
-    .package(url: "https://github.com/art-divin/Stencil.git", branch: "master")
+    .package(url: "https://github.com/shibapm/Komondor.git", exact: "1.1.3"),
+    .package(url: "https://github.com/art-divin/Stencil.git", exact: "0.15.3")
   ],
   targets: [
     .target(name: "StencilSwiftKit", dependencies: [
